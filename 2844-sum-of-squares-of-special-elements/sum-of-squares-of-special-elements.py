@@ -1,12 +1,9 @@
 class Solution:
     def sumOfSquares(self, nums: List[int]) -> int:
         b=0
-        # print(len(nums))
-        a=0
-        for i in range(len(nums)):
-            a=i+1
-            if len(nums)%a==0:
-                # print(nums[i],"-",i)
-                b+=nums[i]**2
+        for i in range(1,len(nums)+1):
+            if len(nums)%i==0:
+               
+                b+=nums[i-1]**2
 
         return b

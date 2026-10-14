@@ -9,7 +9,6 @@ class Solution:
     
         while True:
             b=(a+x/a)/2
-            print(b,"-",a)
             if b==a:
                 break
         

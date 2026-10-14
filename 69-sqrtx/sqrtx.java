@@ -14,7 +14,6 @@ class Solution {
                 }
             
             a=b;
-            System.out.println(a+"-"+b);
         }
 
         return (int)b ;
